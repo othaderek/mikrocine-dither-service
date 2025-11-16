@@ -1,0 +1,17 @@
+{
+  "name": "mikrocine-dither-service",
+  "version": "1.0.0",
+  "description": "Tiny Floyd–Steinberg dithering proxy for Mikrocine posters",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "jimp": "^0.22.10"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
